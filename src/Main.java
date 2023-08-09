@@ -7,7 +7,7 @@ public class Main {
     private static final Map<String, Integer> romanToArabicMap = new HashMap<>();
     private static final Map<Integer, String> arabicToRomanMap = new HashMap<>();
 
-    public void fillHashMap() {
+   static {
         romanToArabicMap.put("I", 1);
         romanToArabicMap.put("II", 2);
         romanToArabicMap.put("III", 3);
