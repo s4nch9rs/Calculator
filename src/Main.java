@@ -81,7 +81,7 @@ public class Main {
                 num1 = romanToArabic(num1Str);
                 num2 = romanToArabic(num2Str);
 
-                if (num1 <= 1 || num1 > 10 || num2 <= 1 || num2 > 10) {
+                if (num1 <= 0 || num1 > 10 || num2 <= 0 || num2 > 10) {
                     throw new Exception("В римской системе счисления допустимы числа от I до X включительно");
                 }
             } else {
